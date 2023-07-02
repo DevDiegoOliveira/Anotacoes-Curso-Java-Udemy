@@ -22,3 +22,19 @@ Aula git log para verificar históricos de versão
 
 git log --oneline
 
+Aula Git status
+
+Aula git diff -> Mostar as diferenças o que foi alterado acrescentando e deletado por exemplo
+
+Aula git checkout
+
+-> Usa para voltar a versão anterior, dar um git checkout mais o codigo do commit
+
+Não alterar o codigo caso voltar uma versão com checkout, caso ocorro usar os codigos abaixa para voltar o q fez:
+
+git reset
+git clean -df 
+git checkout -- . 
+
+
+
