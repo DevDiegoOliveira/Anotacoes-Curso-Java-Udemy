@@ -1,4 +1,13 @@
 Anotações aula git e git hub
 
 - Criei um git para anotações e progresso utiliziando o git para testar que não necessariamente precisa versionar codigos, 
-mas também outros formas de versionamento e acompanhmento de versões. .
+mas também outros formas de versionamento e acompanhmento de versões.
+
+Comandos iniciais
+
+git init 
+git add 
+git commit -m "Escreva o resumo"
+git branch -M main
+git remote add origin "link".git
+git push -u origin main
