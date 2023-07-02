@@ -1,4 +1,4 @@
 Anotações aula git e git hub
 
 - Criei um git para anotações e progresso utiliziando o git para testar que não necessariamente precisa versionar codigos, 
-mas também outros formas de versionamento e acompanhmento de versões.
+mas também outros formas de versionamento e acompanhmento de versões. .
