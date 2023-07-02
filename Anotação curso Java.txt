@@ -11,3 +11,9 @@ git commit -m "Escreva o resumo"
 git branch -M main
 git remote add origin "link".git
 git push -u origin main
+
+Aula clone 
+
+Ao clonar o repositorio do github nao fazer download e sim clonar através do link do github
+
+Para abrir o VSCode entrar na pasta do repositorio e pelo bash digitar "code ."
