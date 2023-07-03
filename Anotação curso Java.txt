@@ -86,3 +86,5 @@ Aula como sobrescrever um histórico no github
 Aula como apontar o projeto para outro repositório remoto
 
 git remote set-url origin "link".git
+
+git remote set-url origin "link".gitgit remote set-url origin "link".gitgit remote set-url origin "link".git
