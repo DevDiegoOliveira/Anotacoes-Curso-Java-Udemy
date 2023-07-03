@@ -36,5 +36,26 @@ git reset
 git clean -df 
 git checkout -- . 
 
+Aula git ignore
 
+Aula removendo arquivos da área de stage
 
+git status
+git reset
+
+Aula desfazendo modificações não salvas
+
+git status
+git resetgit clean -df
+git checkout -- .
+
+Aula quando abre editor VIM 
+
+i -> abre para digitar
+:qw -> salva alteraçòes
+:q! -> sai
+
+Aula deletando ultimo commit sem deletar modificações nos arquivos
+
+git status 
+git reset --soft HEAD~1
