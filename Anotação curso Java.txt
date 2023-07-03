@@ -1,4 +1,88 @@
 Anotações aula git e git hub
 
 - Criei um git para anotações e progresso utiliziando o git para testar que não necessariamente precisa versionar codigos, 
-mas também outros formas de versionamento e acompanhmento de versões. .
+mas também outros formas de versionamento e acompanhmento de versões.
+
+Comandos iniciais
+
+git init 
+git add 
+git commit -m "Escreva o resumo"
+git branch -M main
+git remote add origin "link".git
+git push -u origin main
+
+Aula clone 
+
+Ao clonar o repositorio do github nao fazer download e sim clonar através do link do github
+
+Para abrir o VSCode entrar na pasta do repositorio e pelo bash digitar "code ."
+
+Aula git log para verificar históricos de versão
+
+git log --oneline
+
+Aula Git status
+
+Aula git diff -> Mostar as diferenças o que foi alterado acrescentando e deletado por exemplo
+
+Aula git checkout
+
+-> Usa para voltar a versão anterior, dar um git checkout mais o codigo do commit
+
+Não alterar o codigo caso voltar uma versão com checkout, caso ocorro usar os codigos abaixa para voltar o q fez:
+
+git reset
+git clean -df 
+git checkout -- . 
+
+Aula git ignore
+
+Aula removendo arquivos da área de stage
+
+git status
+git reset
+
+Aula desfazendo modificações não salvas
+
+git status
+git resetgit clean -df
+git checkout -- .
+
+Aula quando abre editor VIM 
+
+i -> abre para digitar
+:qw -> salva alteraçòes
+:q! -> sai
+
+Aula deletando ultimo commit sem deletar modificações nos arquivos
+
+git status 
+git reset --soft HEAD~1
+
+Aula deletando commit e também modificações nos arquivos
+
+git status
+git reset --hard <código do commit>
+
+Voltar o projeto ao estado do penúltimo commit:
+
+git status
+git reset --hard HEAD~1
+
+Como atualizar o repositorio local em relação ao remoto
+
+git status 
+git pull <nome do remote> <nome do branch>
+
+Aula resolvendo pull com conflito
+
+- Analise o código fonte 
+- Faça as edições necessárias
+- Faça um novo commit
+
+Aula como sobrescrever um histórico no github
+
+Aula como apontar o projeto para outro repositório remoto
+
+git remote set-url origin "link".git
