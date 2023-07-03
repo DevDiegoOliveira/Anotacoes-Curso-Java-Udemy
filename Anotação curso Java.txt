@@ -74,3 +74,15 @@ Como atualizar o repositorio local em relação ao remoto
 
 git status 
 git pull <nome do remote> <nome do branch>
+
+Aula resolvendo pull com conflito
+
+- Analise o código fonte 
+- Faça as edições necessárias
+- Faça um novo commit
+
+Aula como sobrescrever um histórico no github
+
+Aula como apontar o projeto para outro repositório remoto
+
+git remote set-url origin "link".git
